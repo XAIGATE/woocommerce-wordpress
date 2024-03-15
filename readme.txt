@@ -107,3 +107,26 @@ Usually the payment is made automatically after several confirmations network wi
 
 XAIGate is a popular choice for businesses that want to accept cryptocurrency payments because it is easy to use and offers a wide range of features. It is also a good choice for businesses that are new to cryptocurrency, as it provides support and guidance to help them get started.
 
+
+**Installation**
+1. First you must install woocommerce plugin and activate it.
+2. Click on the PLUGIN option (you will find It In the sidebar).
+3. Then select on ADD NEW option (you will find it on the top of the page)
+4. After selecting that option new page will pop up and it shows you different plugins. You must click on the search option and type XaiGate Crypto Payment Gateway.
+5. After finding the plugin click on the INSTALL NOW and Install it.
+6. After the completion of the plugin, click on ACTIVATE. When you activate our plugin you will see XAIGATE appear in the sidebar.
+7. Congratulations! You have successfully installed our plugin on your website.
+
+**Configuration of Plugin**
+1. Go to the sidebar of WordPress’s admin panel.
+2. Click the Woocommerce option and select Settings.
+3. Now, you will need to locate the Payments section in the Settings.
+4. You’ll find a Xaigate plugin there.
+5. Click Manage at the end of the same line.
+6. The configure settings page will be opened.
+* Enable/Disable: Tick the checkbox if you want to enable the Xaigate payment method.
+* Title: The title written by you will appear on the checkout page.
+* Description: You can add a few details to tell the customer something important before the customer takes any step during checkout.
+* APIKey: You'll need to obtain an API Key from your Xaigate project settings. Access the Credential page of your Xaigate dashboard to retrieve your API Key: https://wallet.xaigate.com/
+* Shop name: Enter your shop name.
+* That’s all, save the setting.
