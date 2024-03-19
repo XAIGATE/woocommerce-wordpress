@@ -60,6 +60,6 @@ Supported almost all cryptocurrencies on: Ethereum, Binance Smart Chain and TRON
 * Enable/Disable: Tick the checkbox if you want to enable the Xaigate payment method.
 * Title: The title written by you will appear on the checkout page.
 * Description: You can add a few details to tell the customer something important before the customer takes any step during checkout.
-* APIKey: You'll need to obtain an API Key from your Xaigate project settings. Access the Credential page of your Xaigate dashboard to retrieve your API Key: https://wallet.xaigate.com/
+* APIKey: You'll need to obtain an API Key from your Xaigate project settings. Access the Credential page of your Xaigate dashboard to retrieve your API Key: https://wallet.xaigate.com/merchant/credential
 * Shop name:  Enter your shop name.
 * That’s all, save the setting.
