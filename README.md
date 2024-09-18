@@ -2,7 +2,7 @@ XaiGate - The Global Crypto Payment Gateway for WordPress
 -----------------------------------------------------------
 WordPress Woocommerce Plugin URL: [https://wordpress.org/plugins/xaigate-crypto-payment-gateway/](https://wordpress.org/plugins/xaigate-crypto-payment-gateway/)
 
-Version 2.1.3
+Version 2.1.4
 
 XaiGate – The Best Crypto Payment Gateway Processor. We offer to you a possibility to accept payments on WordPress & Woocommerce worldwide in the most popular cryptocurrencies USDT / ETH / BTC / LTC and many others.
 
