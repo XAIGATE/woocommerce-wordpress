@@ -1,12 +1,13 @@
 <?php
 /*
- * Plugin Name: XaiGate Crypto Payment Gateway For WooCommerce
+ * Plugin Name: XaiGate Crypto Payment Gateway
  * Description: Accept crypto payments for your online store with XaiGate's automated solution.
  * Author URI:  https://www.xaigate.com/
  * Author: XaiGate
  * Copyright: 2023 XaiGate.com
- * License: GPL-3.0-or-later
- * Version: 2.1.3
+ * Version: 2.1.4
+ * License: GPLv3
+ * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  * Text Domain: xaigate-crypto-payment-gateway-for-woocommerce
 */
 
@@ -131,10 +132,11 @@ function xaigate_init_woo() {
 		}
 
 		public function callback() {
-		    $order_id = ! empty( $_POST['orderId'] ) && wp_verify_nonce(sanitize_key( $_POST['orderId'] )) ? $_POST['orderId'] : '';
+			if ( ! isset( $_POST['orderId'] ) || ! wp_verify_nonce( sanitize_text_field( wp_unslash ( $_POST['orderId'] ) ) , 'orderId' ) );
+			$order_id = filter_input(INPUT_POST, 'orderId', FILTER_SANITIZE_NUMBER_INT);
 
 			if($order_id) {
-				$order = new WC_Order(intval($order_id));
+				$order = new WC_Order($order_id);
 				$amount = $order->get_total();
 				$amount = str_replace(',', '.', $amount);
 				$amount = number_format($amount, 2, '.', '');

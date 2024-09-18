@@ -1,13 +1,13 @@
-=== XaiGate - Crypto Payment Gateway for WooCommerce ===
-Contributors: xaigate
+=== XaiGate Crypto Payment Gateway ===
+Contributors: ixaigate
 Donate link: https://www.xaigate.com/
-Tags: crypto, bitcoin, cryptocurrency payment gateway, crypto payment gateway
-Requires at least:4.5
-Tested up to: 6.3.2
-Requires PHP: 5.6
-License: GPL2
-Stable tag: 2.1.3
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: crypto, bitcoin, cryptocurrency payment gateway, crypto payment gateway for woocommerce
+Requires at least: 4.5
+Tested up to: 6.6.2
+Requires PHP: 7.0
+Stable tag: 2.1.4
+License: GPLv3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 XaiGate - The Global Crypto Payment Gateway for WordPress. Accept Bitcoin, Ethereum, Binance (BSC), Tron, Dogecoin, Tether, Dash, etc.
 
@@ -128,5 +128,13 @@ XAIGate is a popular choice for businesses that want to accept cryptocurrency pa
 * Title: The title written by you will appear on the checkout page.
 * Description: You can add a few details to tell the customer something important before the customer takes any step during checkout.
 * APIKey: You'll need to obtain an API Key from your Xaigate project settings. Access the Credential page of your Xaigate dashboard to retrieve your API Key: https://wallet.xaigate.com/
-* Shop name: Enter your shop name.
+* Shop name:  Enter your shop name.
 * That’s all, save the setting.
+
+== Changelog ==
+== Upgrade Notice ==    
+= 2.1.4 =
+Code Optimization and compatibility with wordpress 6.6.2
+
+
+
