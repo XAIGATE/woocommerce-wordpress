@@ -8,10 +8,10 @@ XaiGate – The Best Crypto Payment Gateway Processor. We offer to you a possibi
 
 * Author URI: https://www.xaigate.com/
 * Requires at least: WordPress 6.0 and WooCommerce 3.5
-* Tested up to: 6.3.1
-* Stable Tag: 1.0.8
-* License: GNU Version 2 or Any Later Version
-* License URI: http://www.gnu.org/licenses/gpl-2.0.html
+* Tested up to: 6.6.2
+* Stable Tag: 2.1.4
+* License: GPLv3
+* License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 **What Is Crypto Payment Processor?**
 
