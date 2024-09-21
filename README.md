@@ -65,6 +65,7 @@ Supported almost all cryptocurrencies on: Ethereum, Binance Smart Chain and TRON
 * That’s all, save the setting.
 
 **Setting up a shortcode**
+
 To ensure that the WooCommerce plugin works properly, all that's left to do is place a shortcode block: a short snippet of code created for WordPress so that you have the ability to embed files or create objects on your website or blog.
 1. Go to the page editor by clicking Edit Page. 
 ![Setup Xaigate’s WooCommerce plugin](https://www.xaigate.com/wp-content/uploads/2024/09/xaigate-wordpress-shortcode-1-1536x775.png)
