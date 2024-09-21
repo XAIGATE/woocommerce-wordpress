@@ -63,3 +63,16 @@ Supported almost all cryptocurrencies on: Ethereum, Binance Smart Chain and TRON
 * APIKey: You'll need to obtain an API Key from your Xaigate project settings. Access the Credential page of your Xaigate dashboard to retrieve your API Key: https://wallet.xaigate.com/merchant/credential
 * Shop name:  Enter your shop name.
 * That’s all, save the setting.
+
+****Setting up a shortcode
+To ensure that the WooCommerce plugin works properly, all that's left to do is place a shortcode block: a short snippet of code created for WordPress so that you have the ability to embed files or create objects on your website or blog.
+1. Go to the page editor by clicking Edit Page. 
+![Setup Xaigate’s WooCommerce plugin](https://www.xaigate.com/wp-content/uploads/2024/09/xaigate-wordpress-shortcode-1-1536x775.png)
+2. Once inside the page editor click on + and add a shortcode block. 
+![Setup Xaigate’s WooCommerce plugin](https://www.xaigate.com/wp-content/uploads/2024/09/xaigate-wordpress-shortcode-2-1.png)
+![Setup Xaigate’s WooCommerce plugin](https://www.xaigate.com/wp-content/uploads/2024/09/xaigate-wordpress-shortcode-3-1536x774.png)
+3. Type woocommerce_checkout into the added shortcode block so that the end result is: [woocommerce_checkout]
+![Setup Xaigate’s WooCommerce plugin](https://www.xaigate.com/wp-content/uploads/2024/09/xaigate-wordpress-shortcode-4-1536x773.png)
+4. Update the changes.
+Done! To make sure everything works fine, consider doing some testing payments. Incoming crypto funds will be debited to your merchant account.
+
