@@ -38,7 +38,7 @@ Supported almost all cryptocurrencies on: Ethereum, Binance Smart Chain and TRON
 - Fast funds withdrawal (within 30 minutes)
 - Help with integration and provide fast online support
 
-**Installation**
+**Step 1: Installation of XAIGATE Gateway Plugin**
 1. First you must install woocommerce plugin and activate it.
 2. Click on the PLUGIN option (you will find It In the sidebar).
 3. Then select on ADD NEW option (you will find it on the top of the page)
@@ -48,7 +48,7 @@ Supported almost all cryptocurrencies on: Ethereum, Binance Smart Chain and TRON
 7. Congratulations! You have successfully installed our plugin on your website.
 
 
-**Configuration of Plugin**
+**Step 2: Configuration of XAIGATE Plugin**
 1. Go to the sidebar of WordPress’s admin panel.
 2. Click the Woocommerce option and select Settings.
 3. Now, you will need to locate the Payments section in the Settings.
@@ -64,16 +64,37 @@ Supported almost all cryptocurrencies on: Ethereum, Binance Smart Chain and TRON
 * Shop name:  Enter your shop name.
 * That’s all, save the setting.
 
-**Setting up a shortcode**
+**Step 3: Setting up a shortcode**
 
 To ensure that the WooCommerce plugin works properly, all that's left to do is place a shortcode block: a short snippet of code created for WordPress so that you have the ability to embed files or create objects on your website or blog.
-1. Go to the page editor by clicking Edit Page. 
+1. Go to the your Checkout page editor by clicking Edit Page. 
 ![Setup Xaigate’s WooCommerce plugin](https://www.xaigate.com/wp-content/uploads/2024/09/xaigate-wordpress-shortcode-1-1536x775.png)
-2. Once inside the page editor click on + and add a shortcode block. 
+2. Delete the Checkout block by using the element navigator
+3. Once inside the page editor click on + and add a shortcode block. 
 ![Setup Xaigate’s WooCommerce plugin](https://www.xaigate.com/wp-content/uploads/2024/09/xaigate-wordpress-shortcode-2-1.png)
 ![Setup Xaigate’s WooCommerce plugin](https://www.xaigate.com/wp-content/uploads/2024/09/xaigate-wordpress-shortcode-3-1536x774.png)
-3. Type woocommerce_checkout into the added shortcode block so that the end result is: [woocommerce_checkout]
+4. Type woocommerce_checkout into the added shortcode block so that the end result is: [woocommerce_checkout]
 ![Setup Xaigate’s WooCommerce plugin](https://www.xaigate.com/wp-content/uploads/2024/09/xaigate-wordpress-shortcode-4-1536x773.png)
-4. Update the changes.
+5. Update the changes.
 Done! To make sure everything works fine, consider doing some testing payments. Incoming crypto funds will be debited to your merchant account.
 
+**Step 4: How to make payment**
+1. Once a customer fills in the mandatory details and orders a product, the system will take them to the payment page.
+2. You will see the option of Pay with USDT, BTC, LTC, ETH, XMR, XRP, BCH and other cryptocurrencies. Click it.
+3. Select one of your coin wallets from which you want to pay for the product and click place order.
+![Setup Xaigate’s WooCommerce plugin](https://www.xaigate.com/wp-content/uploads/2024/09/how-to-make-payment-by-xaigate-1024x511.png)
+4. At the very next moment, the system will automatically generate an Invoice which will appear on your screen.
+![Setup Xaigate’s WooCommerce plugin](https://www.xaigate.com/wp-content/uploads/2024/09/invoice-pay-by-xaigate-1536x781.png)
+![Setup Xaigate’s WooCommerce plugin](https://www.xaigate.com/wp-content/uploads/2024/09/payment-detail-by-xaigate-1536x781.png)
+![Setup Xaigate’s WooCommerce plugin](https://www.xaigate.com/wp-content/uploads/2024/09/screenshot-2024-09-25-at-174601-1536x771.png)
+5. Copy the Payment address from generated invoice and pay the exact amount from your personal wallet. Once you transfer to this address, it requires 3 confirmations to mark the order paid. It will automatically redirect you to the order summary page once payment is confirmed on the blockchain.
+6. Congratulations! You have now successfully paid for your product.
+
+**Step 5: Check order details**
+1. Go to the sidebar on Admin panel to check your order.
+2. Select Orders from the order menu, and after clicking it, you will see your complete order list. Click on one of these orders that had been paid with the Xaigate payment option.
+3. Click the order and you will be redirected to the order view page.
+4. You will get to see the details of complete orders, conversion rates and history of payments there.
+![Setup Xaigate’s WooCommerce plugin](https://www.xaigate.com/wp-content/uploads/2024/09/check-order-details-by-xaigate.png)
+5. You can also view all orders in your Xaigate dashboard:
+![Setup Xaigate’s WooCommerce plugin](https://www.xaigate.com/wp-content/uploads/2024/09/screenshot-2024-09-25-at-174615-1536x771.png)
