@@ -1,11 +1,11 @@
-=== XaiGate Crypto Payment Gateway ===
-Contributors: ixaigate
+=== Crypto Payment Gateway - XAIGATE ===
+Contributors: xaigate
 Donate link: https://www.xaigate.com/
 Tags: crypto, bitcoin, cryptocurrency payment gateway, crypto payment gateway for woocommerce
 Requires at least: 4.5
-Tested up to: 6.6.2
+Tested up to: 6.7.2
 Requires PHP: 7.0
-Stable tag: 2.1.4
+Stable tag: 2.1.5
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -112,7 +112,7 @@ XAIGate is a popular choice for businesses that want to accept cryptocurrency pa
 1. First you must install woocommerce plugin and activate it.
 2. Click on the PLUGIN option (you will find It In the sidebar).
 3. Then select on ADD NEW option (you will find it on the top of the page)
-4. After selecting that option new page will pop up and it shows you different plugins. You must click on the search option and type XaiGate Crypto Payment Gateway.
+4. After selecting that option new page will pop up and it shows you different plugins. You must click on the search option and type Crypto Payment Gateway - XAIGATE.
 5. After finding the plugin click on the INSTALL NOW and Install it.
 6. After the completion of the plugin, click on ACTIVATE. When you activate our plugin you will see XAIGATE appear in the sidebar.
 7. Congratulations! You have successfully installed our plugin on your website.
@@ -136,5 +136,7 @@ XAIGate is a popular choice for businesses that want to accept cryptocurrency pa
 = 2.1.4 =
 Code Optimization and compatibility with wordpress 6.6.2
 
+= 2.1.5 =
+Code Optimization and compatibility with wordpress 6.7.2
 
 
